@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Twitter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="twitter.css" />
+
+</head>
+
+<body>
+
+  <nav>
+    Twitter
+  </nav>
+  <div class="main">
+    <div class="align-div profile">
+      <section>
+        <h2>Camila Bueno</h2>
+        <p>Estudante de Front-End na Laboratória</p>
+      </section>
+    </div>
+    <div id="tweet" class="align-div create-tweet">
+      <section>
+        <textarea placeholder="O que você está pensando?" onkeyup="changeTweet()" name="contTweet" id="contTweet"></textarea>
+        <input type="button" onclick="tweet()" disabled id="btnTweet" value="Tweet" />
+        <span id="counter"></span>
+      </section>
+    </div>
+  </div>
+
+  <script src="twitter.js"></script>
+</body>
+
+</html>

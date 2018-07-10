@@ -1,0 +1,40 @@
+nav{
+    background-color:#1da1f2;
+    color: white;
+    text-align: center;
+}
+
+textarea{
+    resize: none;
+    max-width: 200px;
+    max-height: 150px;
+    overflow: auto;   
+}
+
+span{
+    display: block;
+}
+
+.align-div{
+    float: left;
+}
+
+.main{
+    height: 800px;
+}
+
+.profile{
+    width: 40%;
+    height: 50%;
+    background-color: #1da1f2;
+    color: black;
+    text-align: center;
+}
+
+.create-tweet{
+    width: 60%;
+    height: 50%;
+    background-color: #1da1f2;
+    color: black;
+    text-align: center;
+}
