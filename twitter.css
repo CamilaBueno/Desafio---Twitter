@@ -1,13 +1,23 @@
+html{
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
 nav{
     background-color:#1da1f2;
     color: white;
     text-align: center;
+    font-size: 30px;
 }
+body{
+    background-image: url("fundo.jpg");
+}
+
 
 textarea{
     resize: none;
-    max-width: 200px;
-    max-height: 150px;
+    width: 200px;
+    height: 100px;
+    max-width: 400px;
+    max-height: 300px;
     overflow: auto;   
 }
 
@@ -21,20 +31,58 @@ span{
 
 .main{
     height: 800px;
+    
+    
+}
+.icon-twitter{
+   
+    width: 6px;
+    height: 6px;
+
 }
 
 .profile{
-    width: 40%;
-    height: 50%;
-    background-color: #1da1f2;
+    width: 30%;
+    height: 30%;
+    background-color: rgb(231, 225, 225);
     color: black;
     text-align: center;
-}
+    margin: 8px;
+    margin-left: 100px;
+    border-radius: 25px;
 
-.create-tweet{
-    width: 60%;
-    height: 50%;
+}
+.laboratoria{
+    width: 20%;
+    height: 20%;
+}
+.tweet{
     background-color: #1da1f2;
+    color: white;
+}
+.create-tweet{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 40%;
+    margin: 8px;
+    margin-left: 100px;
+    background-color:white;
     color: black;
     text-align: center;
+    border-radius: 25px;
+}
+.tweet-added{
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px;
+}
+.color-counter-120{
+    color: blue;
+}
+.color-counter-130{
+    color: red;
+}
+.color-counter-0{
+    color: black;
 }

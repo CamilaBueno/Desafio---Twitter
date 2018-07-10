@@ -7,12 +7,14 @@
   <title>Twitter</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="twitter.css" />
+  <link href="https://file.myfontastic.com/gPDVbMcn2Ez5sAatDKFZ4e/icons.css" rel="stylesheet">
 
 </head>
 
 <body>
 
   <nav>
+    <i class="icon-twitter"></i>
     Twitter
   </nav>
   <div class="main">
@@ -20,12 +22,13 @@
       <section>
         <h2>Camila Bueno</h2>
         <p>Estudante de Front-End na Laboratória</p>
+        <img src="laboratoria.png" class="laboratoria" alt="">
       </section>
     </div>
-    <div id="tweet" class="align-div create-tweet">
+    <div id="tweet" class="create-tweet">
       <section>
-        <textarea placeholder="O que você está pensando?" onkeyup="changeTweet()" name="contTweet" id="contTweet"></textarea>
-        <input type="button" onclick="tweet()" disabled id="btnTweet" value="Tweet" />
+        <textarea placeholder="What's happening?" onkeyup="changeTweet()" name="contTweet" id="contTweet"></textarea>
+        <input type="button" onclick="tweet()" disabled id="btnTweet" value="Tweet" class="tweet" />
         <span id="counter"></span>
       </section>
     </div>

@@ -28,6 +28,7 @@ function createDiv(text){
     var timeElement = document.createElement('span');
     timeElement.innerHTML = getTime();
     div.appendChild(timeElement);
+    div.className = "tweet-added";
     return div; 
 }
 
@@ -66,6 +67,13 @@ function changeTweet(){
     counterSpan.innerHTML = counter - tweetLength;
     if (tweet.value.charAt(tweet.value.length-1) === '\n'){
         tweet.rows++;
+    }
+    if(tweetLength >= 120 && tweetLength < 130) {
+        counterSpan.className ="color-counter-120";
+    } else if (tweetLength >= 130 && tweetLength < 140) {
+        counterSpan.className ="color-counter-130";
+    } else if (tweetLength < 120 && tweetLength > 0){
+        counterSpan.className = "color-counter-0";
     }
 }
 
