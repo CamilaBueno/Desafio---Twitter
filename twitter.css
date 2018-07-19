@@ -7,6 +7,10 @@ nav{
     text-align: center;
     font-size: 30px;
 }
+.head{
+    width: 16px;
+    height: 16px;
+}
 body{
     background-image: url("fundo.jpg");
 }
@@ -14,11 +18,16 @@ body{
 
 textarea{
     resize: none;
-    width: 200px;
-    height: 100px;
-    max-width: 400px;
-    max-height: 300px;
-    overflow: auto;   
+    width: 100px;
+    height: 50px;
+    max-width: 200px;
+    max-height: 100px;
+    overflow: hidden;  
+}
+#contTweet{
+    overflow: hidden;
+    width: 100px;
+    height: 50px;
 }
 
 span{
