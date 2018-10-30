@@ -30,6 +30,7 @@ function createDiv(text) {
   div.appendChild(timeElement);
   div.className = "tweet-added";
   return div;
+
 }
 
 function getTime() {
